@@ -107,6 +107,10 @@ docker rmi [イメージ名]
 docker images
 ```
 
+* Dockerfileからイメージへビルド
+```
+docker build -t [イメージ名]:[タグ名] [Dockerfileのあるディレクトリ]
+```
 
 
 
